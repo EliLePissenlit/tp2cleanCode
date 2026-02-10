@@ -72,3 +72,7 @@ module.exports = {
   additionner: additionner,
   division
 };
+
+const { calcul } = require('./utils');
+
+calcul(2, 2);
